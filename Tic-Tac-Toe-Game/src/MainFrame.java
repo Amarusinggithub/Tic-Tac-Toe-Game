@@ -66,7 +66,7 @@ public class MainFrame extends JFrame {
                 mainPanel.revalidate();
                 mainPanel.repaint();
             }
-            
+
         });
 
         newGameBtn.addActionListener(new ActionListener() {
@@ -87,6 +87,7 @@ public class MainFrame extends JFrame {
         setMinimumSize(new Dimension(300, 400));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        
     }
     }
     public static void main(String[] args) throws Exception {
