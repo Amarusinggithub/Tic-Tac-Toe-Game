@@ -66,6 +66,7 @@ public class MainFrame extends JFrame {
                 mainPanel.revalidate();
                 mainPanel.repaint();
             }
+            
         });
 
         newGameBtn.addActionListener(new ActionListener() {
