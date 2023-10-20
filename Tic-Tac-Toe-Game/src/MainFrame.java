@@ -87,6 +87,7 @@ public class MainFrame extends JFrame {
         setMinimumSize(new Dimension(300, 400));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+
         
     }
     }
