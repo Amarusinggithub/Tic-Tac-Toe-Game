@@ -47,6 +47,7 @@ public class MainFrame extends JFrame {
                 //     mainLabel.setText("It's player " + players.get(currentPlayerIndex).getSymbol() + "'s turn");
                 // }
             }
+            
         });
 
         JPanel buttonPanel = new JPanel();
@@ -88,7 +89,7 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
 
-        
+
     }
     }
     public static void main(String[] args) throws Exception {
