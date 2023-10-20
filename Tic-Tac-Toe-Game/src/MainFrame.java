@@ -47,6 +47,7 @@ public class MainFrame extends JFrame {
                 //     mainLabel.setText("It's player " + players.get(currentPlayerIndex).getSymbol() + "'s turn");
                 // }
             }
+
             
         });
 
